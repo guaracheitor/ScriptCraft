@@ -14,9 +14,9 @@ propios Mods añadiendo archivos Javascript (. js) en un directorio.
 
 CoderDojo Athenry tiene algunos [excelentes tutoriales][cda] para jóvenes programadores que hayan usado [Scratch][scr]
 y estén interesados en el Modding de Minecraft usando Javascript. En particular, tienen el excelente tutorial
-[Scratch - to - Javascript][sj], que explica programas en Scratch y cómo hacer los mismo en Javascript.
+[Scratch - to - Javascript][sj], que explica programas en Scratch y cómo hacer lo mismo en Javascript.
 
-Recomiendo los [tutoriales de CoderDojo Athenry][cda].
+Recomiendo mucho los [tutoriales de CoderDojo Athenry][cda].
 
 El desarrollador Chris Cacciatore ha creado algunas herramientas interesantes usando Scriptcraft...
 
