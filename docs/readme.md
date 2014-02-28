@@ -12,18 +12,16 @@ propios Mods añadiendo archivos Javascript (. js) en un directorio.
 
 # Recursos adicionales
 
-CoderDojo Athenry have some [excellent tutorials][cda] for younger
-programmers who have used [Scratch][scr] and are interested in Modding
-Minecraft using Javascript.  In particular, they have an excellent
-[Scratch - to - Javascript][sj] tutorial which explains Scratch
-programs and how to do the same thing in Javascript.
+CoderDojo Athenry tiene algunos [excelentes tutoriales][cda] para jóvenes programadores que hayan usado [Scratch][scr]
+y estén interesados en el Modding de Minecraft usando Javascript. En particular, tienen el excelente tutorial
+[Scratch - to - Javascript][sj], que explica programas en Scratch y cómo hacer los mismo en Javascript.
 
-I highly recommend the series of [tutorials provided by CoderDojo Athenry][cda].
+Recomiendo los [tutoriales de CoderDojo Athenry][cda].
 
-Developer Chris Cacciatore has created some interesting tools using Scriptcraft...
+El desarrollador Chris Cacciatore ha creado algunas herramientas interesantes usando Scriptcraft...
 
- * [A wolf-bot][wb]
- * [L-Systems (Large-scale fractal structures in Minecraft)][ls] 
+ * [Un Lobo-bot][wb]
+ * [L-Systems (estructuras fractales a gran escala en Minecraft)][ls] 
  
 [wb]: https://github.com/cacciatc/wolfbot
 [ls]: https://github.com/cacciatc/scriptcraft-lsystems
