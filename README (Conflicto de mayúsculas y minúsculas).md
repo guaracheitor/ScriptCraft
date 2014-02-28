@@ -1,16 +1,16 @@
-# Comencemos...
+# Let's begin...
 
-He creado ScriptCraft para hacer más fácil para los niños (y para cualquier persona
-interesada en la programación) la creación de sus propios Mods de Minecraft. 
-ScriptCraft hace que sea más fácil para los nuevos programadores crear
-Mods de Minecraft. Los Mods se crean utilizando el lenguaje de programación Javascript
-y una vez instalado el mod ScriptCraft, puedes añadir tus
-propios Mods añadiendo archivos Javascript (. js) en un directorio.
+I created ScriptCraft to make it easier for children (and anyone
+curious about programming) to create their own Minecraft
+Mods. ScriptCraft makes it easier for new programmers to create
+Minecraft mods. Mods are written using the Javascript programming
+language and once the ScriptCraft mod is installed, you can add your
+own new Mods by adding Javascript (.js) files in a directory.
 
- * Si eres nuevo programando y quieres empezar con el modding de Minecraft, entonces [Empieza aquí][ypgpm].
- * Si ya has usado [Scratch][scr], has recibido algunas sesiones de [CoderDojo][cd], o ya conoces Javascript, entonces [Empieza aquí][cda].
+ * If you're new to programming and want to start modding Minecraft, then [Start Here][ypgpm].
+ * If you've already used [Scratch][scr], have attended a few [CoderDojo][cd] sessions, or have already dabbled with Javascript, then [Start Here][cda].
 
-# Recursos adicionales
+# Additional Resources
 
 CoderDojo Athenry have some [excellent tutorials][cda] for younger
 programmers who have used [Scratch][scr] and are interested in Modding
