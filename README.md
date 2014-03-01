@@ -1,61 +1,58 @@
-# Let's begin...
+# Comencemos...
 
-I created ScriptCraft to make it easier for younger programmers to
-create their own Minecraft Mods. Mods are written using the
-Javascript programming language. Once the ScriptCraft mod is
-installed, you can add your own new Mods by adding Javascript (.js)
-files in a directory.
+He creado ScriptCraft para hacer más fácil para los niños (y para cualquier persona
+interesada en la programación) la creación de sus propios Mods de Minecraft. 
+ScriptCraft hace que sea más fácil para los nuevos programadores crear
+Mods de Minecraft. Los Mods se crean utilizando el lenguaje de programación Javascript
+y una vez instalado el mod ScriptCraft, puedes añadir tus
+propios Mods añadiendo archivos Javascript (. js) en un directorio.
 
- * If you're new to programming and want to start modding Minecraft, then [Start Here][ypgpm].
- * If you've already used [Scratch][scr], have attended a few
-   [CoderDojo][cd] sessions, or have already dabbled with Javascript,
-   then [Start Here][cda].
- * Watch some [demos][ytpl] of what you can do with ScriptCraft.
+ * Si eres nuevo programando y quieres empezar con el modding de Minecraft, entonces [Empieza aquí][ypgpm].
+ * Si ya has usado [Scratch][scr], has recibido algunas sesiones de [CoderDojo][cd], o ya conoces Javascript, entonces [Empieza aquí][cda].
 
-This is a simple mod in a file called greet.js in the scriptcraft/plugins directory...
+ * Mira algunos [ejemplos][ytpl] de lo que puedes hacer con ScriptCraft.
+
+Este es un mod simple en un archivo llamado greet.js en la carpeta scriptcraft/plugins...
 
 ```javascript
 exports.greet = function( player ) {
-   player.sendMessage('Hello ' + player.name );
+   player.sendMessage('Hola ' + player.name );
 };
 ```
 
-At the in-game prompt, type...
+En la consola de comandos del juego escribe...
 
-    /js greet(self)
+    /js greet(self)... para ver el saludo. Todo lo que puedes hacer con la API de CraftBukkit en Java, puedes hacerlo usando ScriptCraft en Javascript.
 
-... to see the greeting. Anything you can do using CraftBukkit's API in Java, you can do using ScriptCraft in Javascript.
+# Descripción
 
-# Description
-
-ScriptCraft is a plugin for Minecraft Servers which lets operators,
-administrators and plug-in authors customize the game using
-Javascript.  ScriptCraft makes it easier to create your own mods. Mods
-can be written in Javscript and can use the full [Bukkit API][bukkit].  The
-ScriptCraft mod also lets you enter javascript commands at the in-game
-prompt.  To bring up the in-game prompt press the `/` key then type
-`js ` followed by any javascript statement.  E.g. `/js 1+1` will print
+ScriptCraft es un plugin para servidores Minecraft que permite a operadores,
+administradores y creadores de plugins personalizar el juego usando javascript.
+ScriptCraft te facilita crear tus propios mods. Los mods
+pueden escribirse en javascript se puede usar toda la [API de Bukkit][bukkit].  El mod
+ScriptCraft también permite usar comandos javascript en la consola de comandos.  Para que aparezca la consola de comandos presiona la tecla `t` y escribe `/js ` seguido de una instrucción javascript.  Por ejemplo. `/js 1+1` devolverá
 2.
 
-ScriptCraft also includes many objects and functions to make building
-and modding easier using Javascript. The Javascript `Drone` object
-bundled with ScriptCraft provides an easy way to build at-scale in
-Minecraft. See the attached [cottage.js][cottage] file for an example
-of how you can use the sample Drone plugin to create new buildings in
-Minecraft.
+
+Scriptcraft también incluye muchos objetos y funciones para construir y 
+hacer modding fácilmente usando javascript.
+El objeto Javascript `Drone` incluido con ScriptCraft
+bundled with ScriptCraft proporciona una forma fácil de construir a escala en
+Mira en el archivo adjunto [cottage.js][cottage] un ejemplo de como
+puedes usar el plugin Drone para crear nuevas contrucciones en Minecraft.
 
 [drone]: https://github.com/walterhiggins/ScriptCraft/tree/master/src/main/javascript/drone/drone.js
 [cottage]: https://github.com/walterhiggins/ScriptCraft/tree/master/src/main/javascript//drone/cottage.js
 [bukkit]: http://dl.bukkit.org/
 
-# Prerequisites
+# Prerrequisitos
 
-You will need to have Java version 6 or 7 installed on your
-machine. Check the version by typing `java -version` at a command
-prompt.  You will need to [install Bukkit][ib] on your machine. Bukkit
-is a version of Minecraft (server) that makes it easy to install
-plugins and customize Minecraft.  You can [download the CraftBukkit
-server here.][cbdl]
+Necesitas tener instalada las versiones 6 o 7 de Java en tu ordenador.
+Chequea la versión escribiendo  `java -version` en una consola de comandos.
+Necesitas  [instalar Bukkit][ib] en tu ordandor. Bukkit
+es una versión de Minecraft (servidor) que facilita instalar 
+plugins y personalizar Minecraft.  Puedes [descargar el servidor CraftBukkit
+aquí.][cbdl]
 
 # Installation
 
