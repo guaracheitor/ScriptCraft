@@ -15,8 +15,8 @@ propios Mods añadiendo archivos Javascript (. js) en un directorio.
 Este es un mod simple en un archivo llamado greet.js en la carpeta scriptcraft/plugins...
 
 ```javascript
-exports.greet = function( player ) {
-   player.sendMessage('Hola ' + player.name );
+exports.saludo = function( jugador ) {
+   jugador.sendMessage('Hola ' + jugador.name );
 };
 ```
 
@@ -54,36 +54,35 @@ es una versión de Minecraft (servidor) que facilita instalar
 plugins y personalizar Minecraft.  Puedes [descargar el servidor CraftBukkit
 aquí.][cbdl]
 
-# Installation
+# Instalación
 
-If you don't want to compile from source, you can [download the
-compiled plugin here][dl] and copy it the craftbukkit's plugins
-directory.
+Si no quieres compilar desde las fuentes, puedes [descargar el 
+plugin compilado aquí][dl] y copiarlo en la carpeta de plugins 
+de craftbukkit.
 
-# Post Install
+# Postinstalación
 
-Once installed, a new js-plugins directory is automatically created in
-the same directory as the plugins folder.  All files in the js-plugins
-directory will be automatically loaded when CraftBukkit starts.  *Only
-players who are ops can use this plugin.* You can grant a player `op`
-privileges by typing 'op <username>' at the server console prompt or
-by adding the player's username to the ops.txt file in your
-craftbukkit directory.
+Una vez instalado, se crea automáticamente una nueva carpeta js-plugins 
+en la misma carpeta que la carpeta plugins. Todos los ficheros en la carpeta
+js-plugins serán leídos automáticamente cuando arranque CraftBukkit.
+* Solo los operadores pueden usar este plugin.* Puedes dar privilegios de
+`operador` a un jugador escribiendo 'op <nombre de usuario>' en la consola
+comandos del servidor o añadiendo ese 'nombre de usuario' a ops.txt en 
+tu carpeta de craftbukkit.
 
-Launch CraftBukkit, then launch the Minecraft client and create a new
-server connection. The IP address will be `localhost` . Once you've
-connected to your bukkit server and have entered the game, look at a
-ground-level block and type ...
+Lanza CraftBukkit, arranca el cliente de Minecraft y crea una nueva conexión
+de servidor. La IP será `localhost`. Cuando estés conectado a tu servidor 
+bukkit y hayas comenzado a jugar, mira al nivel del suelo y escribe...
 
     /js up().box('35:15', 4, 9, 1)
 
-... This will create a black monolith structure 4 blocks wide by 9
-blocks high by 1 block long.  Take a look at the
-src/main/javascript/drone/drone.js file to see what ScriptCraft's
-drone can do.  If you're interested in customizing minecraft beyond
-just creating new buildings, take a look at [./homes/homes.js][homes]
-and [./chat/color.js][chatcolor] for examples of how to create a
-javascript plugin for Minecraft.
+...Esto creará una estructura monolítica de 4 bloques de ancho por 
+9 bloques altura y un bloque de largo. Échale un vistazo al archivo 
+src/main/javascript/drone/drone.js y mira lo que el drone de ScriptCraft
+puede hacer. Si estás interesado en personalizar minecraft más allá de
+crear nuevas construcciones, mira en [./homes/homes.js][homes]
+y [./chat/color.js][chatcolor] ejemplos de cómo crear un 
+plugin javascript para Minecraft.
 
 [ho]: blob/master/src/main/javascript/plugins/homes/homes.js
 [ch]: blob/master/src/main/javascript/plugins/chat/color.js
