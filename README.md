@@ -89,34 +89,35 @@ plugin javascript para Minecraft.
 [ar]: blob/master/src/main/javascript/plugins/arrows/arrows.js
 [si]: blob/master/src/main/javascript/modules/signs/menu.js
 
-A Javascript mod for minecraft is just a javascript source file (.js)
-located in the craftbukkit/js-plugins directory. All .js files in this
-directory will be automatically loaded when the craftbukkit server
-starts. To get started writing your own mod, first take a look at some
-of the existing mods in the [homes][ho], [chat][ch], [arrows][ar] and
-[signs][si] directories. The chat/color.js mod is probably the
-simplest mod to get started with.
+Un mod Javascript para Minecraft es un archivo fuente javascript (.js)
+localizado en la carpeta craftbukkit/js-plugins. Todos los archivos (.js)
+de esa carpeta serán leídos automáticamente cuando arranque el servidor
+craftbukkit. Para empezar a crear tu propio mod, primero revisa algunos 
+de los mods ya existentes las carpetas [homes][ho], [chat][ch], [arrows][ar] y
+[signs][si]. Probablemente el mod más simple para empezar es chat/color.js.
 
-# Additional information
 
-Because the Bukkit API is open, all of the Bukkit API is accessible
-via javascript once the ScriptCraft plugin is loaded. There are a
-couple of useful Java objects exposed via javascript in the Bukkit
-ScriptCraft plugin...
+# Información adicional
 
- * `__plugin` - the ScriptCraft Plugin itself. This is a useful
-   starting point for accessing other Bukkit objects. The `__plugin`
-   object is of type [org.bukkit.plugin.java.JavaPlugin][api] and all
-   of its properties and methods are accessible. For example... `js
-   __plugin.server.motd` returns the server's message of the day
-   (javascript is more concise than the equivalent java code:
-   __plugin.getServer().getMotd() ).
+Como la API de Bukkit API es abierta, toda la API de Bukkit es accesible
+desde javascript una vez que se carga el puglin ScriptCraft. Aquí tenemos 
+un par de útiles objetos Java accesibles via javascript en el plugin 
+ScriptCraft de Bukkit...
 
- * `server` - The top-level org.bukkit.Server object. See the [Bukkit API docs][bukapi] for reference.
 
- * `self` - The player/command-block or server console operator who
-   invoked the `/js` command. Again, this is a good jumping off point for
-   diving into the Bukkit API.
+ * `__plugin` - el propio plugin ScriptCraft. Este es un punto de partida
+   útil para acceder a otros objetos Bukkit. El objeto `__plugin` es del tipo
+   [org.bukkit.plugin.java.JavaPlugin][api] y todas sus propiedades y métodos
+   están accesibles. Por ejemplo...`js  __plugin.server.motd` devuelve el 
+   mensaje del día del servidor(javascript es más conciso que el código Java 
+   equivalente: __plugin.getServer().getMotd() ).
+
+ * `server` - El nivel más alto del objeto org.bukkit.Server. Revisa como referencia
+   la [documentación de la API de Bukkit][bukapi].
+
+ * `self` - El player/command-block o la consola de servidor del operador 
+   que invoca el comando `/js`. Nuevamente, este es un buen punto para adentrarnos
+   en la API de Bukkit.
 
 [dl]: http://scriptcraftjs.org/download
 [api]: http://jd.bukkit.org/apidocs/org/bukkit/plugin/java/JavaPlugin.html
@@ -124,41 +125,43 @@ ScriptCraft plugin...
 [cbdl]: http://dl.bukkit.org/downloads/craftbukkit/
 [bukapi]: http://jd.bukkit.org/apidocs/
 
-# Contributing
+# Para contribuir
 
-If you would like to contribute source code and/or documentation changes please [read contributing.md][contrib]
+Si quisieras contribuir al código fuente y/o la documentación por favor, [lee contributing.md][contrib] 
 
-## Status
+## Estado
 
 [![Travis Build Status](https://api.travis-ci.org/walterhiggins/ScriptCraft.png)](http://travis-ci.org/walterhiggins/ScriptCraft)
 
-# Configuration
+# Configuración
 
-ScriptCraft is a Bukkit Plugin and uses the Bukkit Configuration
-API. On first loading, ScriptCraft will create a config.yml file in
-the plugins/scriptcraft/ directory. This file looks like this...
+ScriptCraft es un plugin de Bukkit y usa la configuración de la API
+de Bukkit. Al inicio, ScriptCraft creará un archivo config.yml in la
+carpeta plugins/scriptcraft/. Este archivo luce así...
 
     extract-js:
       plugins: true
       modules: true
       lib: true
 
-This file allows scriptcraft admins to turn on or off re-unzipping of the `modules`,
-`plugins` and `lib` folders when deploying a new version of
-scriptcraft. It's strongly recommended that the `lib` directory always
-be set to true to get the latest core scriptcraft code . The modules
-and plugins directories are optional and not part of scriptcraft core.
+Este archivo permite a los administradores de scriptcraft permitir o no la
+re-descompresión de las carpetas `modules`, `plugins` y `lib` cuando se 
+despliega una nueva versión de scriptcraft. Es altamente recomendable que la
+carpeta `lib` siempre esté en true para tener la última versión del núcleo del
+código de scriptcraft. Las carpetas de módulos y plugins son opcionales y no forman
+parte del núcleo de scriptcraft.
 
-# Further Reading
+# ¿Dónde seguir?
 
-ScriptCraft has [its own website][website] with further information.
+ScriptCraft tiene [su propio sitio web][website] con información adicional.
 
- * To get started using ScriptCraft to Learn Javascript, read [The Young Person's Guide to Programming in Minecraft][yp].
- * The ScriptCraft [API documentation][api].
- * To delve deeper into creating your own minecraft mod for use by others, read [Creating a complete Minecraft Mod in  Javascript][mm].
- * Take a look at some [examples][ex]
+ * Para empezar a usar ScriptCraft para aprender javascript, lee la [Guía de programación
+   en Minecraft para jóvenes][yp].
+ * La [documentación de la API][api] de ScriptCraft.
+ * Para profundizar en la creación de su propio mod minecraft para su uso por otros, lee [Creando un Mod de Minecraft    completo en Javascript][mm].
+ * Échale un vistazo a algunos [ejemplos][ex]
 
-You can find more information about [ScriptCraft on my blog][blog].
+Puedes encontrar más información sobre [ScriptCraft en mi blog][blog].
 
 [blog]: http://walterhiggins.net/blog/cat-index-scriptcraft.html
 [buk]: https://github.com/walterhiggins/ScriptCraft/blob/master/bukkit.md
