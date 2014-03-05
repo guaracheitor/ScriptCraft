@@ -35,13 +35,13 @@
  * [Contando los bloques que rompe cada jugador.](#counting-block-break-events-for-each-player)
  * [Próximos pasos.](#next-steps)
 
-## Introduction
+## Introducción
 
-Minecraft is an open-ended 3D game where you can build and craft
-anything you like. Minecraft can be extended and enhanced using 'Mods'
-(short for 'modifications') - additional bits of code that are added
-to the Game. ScriptCraft is one such Mod - it lets you program in
-Javacript right within the game, making it possible to ...
+Minecraft es un juego 3D abierto donde puedes construir y crear
+cualquier cosa que desees. Minecraft puede ser extendido y enriquecido 
+usando 'Mods'(abreviatura de 'modificaciones') - trozos de código adicional
+añadidos al juego. Scriptcraft es un mod - te permite programar en Javascript
+dentro del juego, lo cual hace posible...
 
  * Build using simple javascript statements. 
  * Extend the game in other interesting ways - add new Items, change
