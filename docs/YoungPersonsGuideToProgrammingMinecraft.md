@@ -43,14 +43,14 @@ usando 'Mods'(abreviatura de 'modificaciones') - trozos de código adicional
 añadidos al juego. Scriptcraft es un mod - te permite programar en Javascript
 dentro del juego, lo cual hace posible...
 
- * Build using simple javascript statements. 
- * Extend the game in other interesting ways - add new Items, change
-   the game behaviour and create mini-games.
+ * Construir simples sentencias javascript.
+ * Extender el juego de otras maneras interesantes - crear nuevos 
+   Elementos(Items), cambiar el comportamiento del juego y crear minijuegos.
 
-Minecraft can be played in single-player or multi-player mode (with
-friends). Most people play Minecraft in Multi-player mode where
-players connect to a Minecraft Server on the internet or locally
-(running on the player's computer). 
+Minecraft puede jugarse en modo de jugador único o en modo 
+multijugador(con amigos). La mayoría de la gente juega al Minecraft
+en modo multijugador, donde los jugadores se conectan a un servidor 
+de Internet o local(ejecutándose en el PC del jugador).
 
 ![Cottages created using ScriptCraft in MineCraft][img_cr]
 
