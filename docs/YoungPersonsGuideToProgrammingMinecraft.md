@@ -91,40 +91,39 @@ para la programación en Minecraft.
 
 Normalmente, los mods de Minecraft están escritos en Java. Esto dificulta
 la creación de tus propias extensiones o reglas de juego porque debes 
-aprender Java. Java es muy diferente a Javascript. Con el plugins ScripCraft
-instalado, no necesitas saber Java, puedes extender y personalizar Minecraft 
+aprender Java. Java es muy diferente a Javascript. Con el plugin ScripCraft
+instalado no necesitas saber Java, puedes extender y personalizar Minecraft 
 a tu manera usando Javascript. Javascript es más fácil de aprender que Java, 
 además es más flexible y potente y se usa para crear sitios web interactivos 
 y muchas otras aplicaciones.
 
 ## Configurando tu servidor (opcional)
 
-Once you've installed CraftBukkit, depending on your specific needs,
-you might want to consider setting the following properties in the
-`server.properties` file...
+Una vez instalado CraftBukkit, dependiendo de tus necesidades específicas,
+puedes considerar definir las siguientes propiedades en el archivo `server.properties`...
 
-    # completely flat worlds are best for building from scratch
+    # los mundos completamente planos son mejores construir desde cero
     level-type=FLAT
     generate-structures=false
     
-    # creative mode
+    # modo creativo
     gamemode=1
     pvp=false
     
-    # turns off authentication (for classroom environments)
+    # deshabilitar la autenticación (para entornos de clase)
     online-mode=false
     spawn-npcs=false
     spawn-monsters=false
 
-## Learning Javascript
+## Aprendiendo Javascript
 
-To begin creating cool stuff in Minecraft using ScriptCraft, you don't 
-*have* to know much JavaScript. ScriptCraft comes with lots of functions 
-to help you create buildings of any size, and lets you experiment while 
-you play. However, as you learn Javascript you will be able to create 
-cooler stuff in Minecraft - not just buildings, you'll be able to add 
-new rules and items to the game - even create mini-games for you and 
-your friends. If you want to get started learning JavaScript, check out 
+Para empezar a crear cosas chulas en Minecraft usando ScriptCraft, no
+tienes que saber mucho JavaScript. ScriptCraft viene con muchas funciones
+para ayudar a crear construcciones de cualquier tamaño, y te permite 
+eperimentar mientras juegas. No obstante, mientras más aprendas Javascript
+serás capaz de crear cosas más chulas en Minecraft - no solo construcciones,
+ serás capaz de añadir nuevas reglas y objetos al juego - incluso crear 
+ minijuegos para ti y tus amigos. If you want to get started learning JavaScript, check out 
 this [fun Javascript Tutorial][ce]. If you want to dive right in to 
 ScriptCraft, read on...
 
