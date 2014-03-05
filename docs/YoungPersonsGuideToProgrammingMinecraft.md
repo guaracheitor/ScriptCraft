@@ -50,53 +50,54 @@ dentro del juego, lo cual hace posible...
 Minecraft puede jugarse en modo de jugador único o en modo 
 multijugador(con amigos). La mayoría de la gente juega al Minecraft
 en modo multijugador, donde los jugadores se conectan a un servidor 
-de Internet o local(ejecutándose en el PC del jugador).
+de Internet o local(ejecutándose en el ordenador del jugador).
 
-![Cottages created using ScriptCraft in MineCraft][img_cr]
+![Viviendas creadas usando ScriptCraft en Minecraft][img_cr]
 
-## Installation
+## Instalación
 
-CraftBukkit is a version of the Minecraft server software which allows
-easy addition of 'Mods' and extensions to Minecraft. ScriptCraft is a
-'Mod' for use with CraftBukkit.  Adding Mods to Minecraft can be
-difficult but CraftBukkit makes it easy.  Follow these steps to
-Install ScriptCraft on your computer...
+CraftBukkit es una versión del sofware de servidor de Minecraft que permite
+añadir de forma fácil Mods y extensiones de Minecraft. ScriptCraft es un 
+'Mod' para CraftBukkit. Añadir Mods en MInecraft puede ser difícil 
+pero CraftBukkit lo facilita. Sigue estos pasos para instalar ScriptCraft
+en tu ordenador...
 
-1. [Download and install CraftBukkit][dlbuk]. Then follow the [Bukkit
-   Installation Instructions][bii]. (Tip: You can grab the very latest
-   version of bukkit from the [alternative versions list][dlbuk2])
+1. [Descargar e instalar CraftBukkit][dlbuk]. Sigue las [Instrucciones de
+   instalación de Bukkit][bii]. (Consejo: Puedes descargar la última versión
+   de bukkit de la [lista alternativa de versiones][dlbuk2])
 
-2. Start the CraftBukkit server, then once it has started up, stop it
-   by typing 'stop'. If you go to the craftbukkit folder (see step 1) you
-   should see some new files and subfolders.
+2. Arranca el servidor CraftBukkit, una vez que esté en marcha haz que el servidor
+   se detenga escribiendo 'stop'. Si vas a la carpeta de craftbukkit (ver paso 1) debes
+   ver algunos archivos y subcarpetas nuevas.
 
-3. [Download the latest version of the ScriptCraft Mod][sc-plugin]. Then copy the ScriptCraft.jar file to the
-   `craftbukkit/plugins` folder (This folder won't be created until you run Bukkit for the first time (see previous step).
+3. [Descarga la última versión del mod ScriptCraft][sc-plugin]. Copia el archivo
+   ScriptCraft.jar en la carpeta `craftbukkit/plugins` (Esta carpeta no se creará
+   hasta que no ejecutes Bukkit por primera vez(ver pasos anteriores).
 
-4. Start up the craftbukkit server again (see [instructions for starting the server][bii]).
+4. Inicie nuevamente el servidor craftbukkit(ver [instrucciones para iniciar el servidor][bii]).
 
-5. In the CraftBukkit command window type `op {your_username}` and hit
-   enter, replacing {your_username} with your own minecraft
-   username. This will give you `operator` access meaning you can perform
-   more commands than are normally available in Minecraft.  You should
-   make yourself a server operator (Server operators have full privileges
-   for the server) permanently by editing the craftbukkit/ops.txt file
-   and adding your username (one username per line).
+5. En la ventana de comandos de CraftBukkit escribe `op {nombre_de_usuario}` y 
+   presiona Intro, reemplaza {nombre_de_usuario} con tu nombre se usuario Minecraft. 
+   Esto te dará privilegios de `operador`, lo que quiere decir que podrás ejecutar más comandos
+   de los que normalmente están accesibles en Minecraft. Debes hacerte operador del 
+   servidor(los operadores tienen todos los privilegios en el servidor) de forma 
+   permanente editando el archivo craftbukkit/ops.txt y añadir tu nombre de usuario(un nombre de
+   usuario por línea).
 
-6. In the CraftBukkit command window type `js 1 + 1` and hit enter. You should see `> 2` .
+6. En la ventana de comandos de CraftBukkit escribe `js 1 + 1` y presina Intro. Debes ver `> 2` .
 
-... Congratulations! You just installed your own Minecraft Server with 
-the ScriptCraft Mod and are now ready to begin programming in Minecraft.
+... ¡Enhorabuena! Has instalado tu propio servidor Minecraft con el mod ScriptCraft y listo
+para la programación en Minecraft.
 
-Normally, Minecraft Mods are written in Java. This makes writing your 
-own extension or game rules difficult because you must first learn Java. 
-Java is different enough from Javascript. With the ScriptCraft plug-in 
-installed, you don't have to learn Java, you can extend and customize 
-Minecraft your way using Javascript. Javascript is easier to learn than 
-Java but it's also more flexible and powerful and is used for creating 
-interactive web sites and many other applications.
+Normalmente, los mods de Minecraft están escritos en Java. Esto dificulta
+la creación de tus propias extensiones o reglas de juego porque debes 
+aprender Java. Java es muy diferente a Javascript. Con el plugins ScripCraft
+instalado, no necesitas saber Java, puedes extender y personalizar Minecraft 
+a tu manera usando Javascript. Javascript es más fácil de aprender que Java, 
+además es más flexible y potente y se usa para crear sitios web interactivos 
+y muchas otras aplicaciones.
 
-## Configuring your Server (optional)
+## Configurando tu servidor (opcional)
 
 Once you've installed CraftBukkit, depending on your specific needs,
 you might want to consider setting the following properties in the
