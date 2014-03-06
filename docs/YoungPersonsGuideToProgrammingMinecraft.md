@@ -1,5 +1,5 @@
 # Guía de programación en Minecraft para jóvenes.
-## Tabla de Contennidos
+## Tabla de Contenidos
  * [Introducción](#introduction)
  * [Instalación](#installation)
  * [Configurando tu servidor (opcional)](#configuring-your-server-optional)
