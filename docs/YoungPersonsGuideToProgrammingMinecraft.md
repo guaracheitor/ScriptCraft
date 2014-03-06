@@ -123,43 +123,42 @@ para ayudar a crear construcciones de cualquier tamaño, y te permite
 eperimentar mientras juegas. No obstante, mientras más aprendas Javascript
 serás capaz de crear cosas más chulas en Minecraft - no solo construcciones,
  serás capaz de añadir nuevas reglas y objetos al juego - incluso crear 
- minijuegos para ti y tus amigos. If you want to get started learning JavaScript, check out 
-this [fun Javascript Tutorial][ce]. If you want to dive right in to 
-ScriptCraft, read on...
+ minijuegos para ti y tus amigos. Si quieres empezar a aprender JavaScript,
+ échale un vistazo a este [divertido tutorial de Javacript][ce]. Si quieres
+ sumergirte ya en ScriptCraft, empieza por...
 
-## First Steps
+## Primeros pasos
 
-If you don't already know Javascript, don't worry, you'll learn a little 
-about Programming and Javascript along the way. You've set up a 
-Minecraft server and are ready to connect ...
+Si no sabes nada de Javascript, no te preocupes, sobre la marcha aprenderás
+un poco a programar con Javascript. Has configurado el servidor Minecraft y 
+está listo para conectarse a él...
 
-1. Launch Minecraft (keep the Bukkit Command window open). 
-2. Click 'Multi-Player'
-3. Click 'Add Server'
-4. Type any name you like in the name field then type `localhost` in the 
-address field. `localhost` is a special internet address that points to 
-your own computer.
-5. Click 'Join Server' to join the craftbukkit server.
-6. Once you've joined the game, press the `/` key located at the bottom 
-right of your keyboard. A prompt will appear. Type the following then 
-press enter: `js 1 + 1` The number 2 should be displayed. 
+1. Inicia Minecraft (deja la ventana de comandos Bukkit abierta). 
+2. Haz click en 'Multijugador'.
+3. Haz click en 'Añadir  servidor'
+4. Escribe el nombre que quieras en el campo Nombre y `localhost` en el
+campo Dirección. `localhost` es una dirección especial de internet se dirige
+a tu propio ordenador.
+5. Haz click en 'Unirse al servidor' para conectarte al servidor craftbukkit server.
+6. Una vez te hayas unido al juego, escribe `/` presionando la tecla "t" y luego 
+"Mayúscula + 7" en tu teclado. Escribe entonces lo siguiente y presiona 
+Intro: `js 1 + 1`. Debe devolver el número 2.
 
-... Well Done! You've just confirmed you can run Javascript code from
-within the Minecraft Console. 
+... ¡Bien hecho! Has comprobado que puedes ejecutar código Javascript desde la 
+consola de Minecraft. 
 
 ## Variables
 
-A variable is how you name something for the computer (and you the 
-programmer) to remember. You create a new variable in Javascript using 
-the `var` keyword...
+Una variable nos sirve para nombrar cosas para que el ordenador (y tú, el programador) 
+las recuerden. Para crear una nueva variable en Javascript usa la palabra clave `var`...
 
-    /js var location = 'Blackrock Castle'
+    /js var posicion = 'Castillo Blackrock'
 
-... creates a new variable called `location` and stores the text 
-`Blackrock Castle` in it. Now the computer has a new item in its memory 
-called `location`. We can use that name like this...
+... crea una variable llamada `posicion` y guarda el texto `Castillo Blackrock` en ella. Ahora
+el ordenador tiene un nuevo elemento en su memoria llamado `posicion`. Puedes usar este nuevo
+nombre así...
 
-    /js echo( location )
+    /js echo( posicion )
 
 ... and the following is displayed...
 
