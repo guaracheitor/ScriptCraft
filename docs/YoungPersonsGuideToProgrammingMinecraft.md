@@ -160,20 +160,16 @@ nombre así...
 
     /js echo( posicion )
 
-... and the following is displayed...
+... y se mostrará lo siguiente...
 
-    Blackrock Castle
+    Castillo Blackrock
 
-...You might be wondering where the `''` (called double-quotes) went. 
-When telling the computer to store some text, you have to put `'` 
-(that's the double-quote character - press Shift+2) at the start and end 
-of the text. The computer doesn't store these quote characters, only the 
-text between them. The computer will store the variables while the 
-Minecraft Server is running. Repeat the last command you entered by 
-pressing the `/` key then the UP arrow key on your keyboard, then 
-pressing enter. You can repeat that statement as many times as you like 
-and the computer will always display the same value. You can change the 
-value like this...
+... Es posible que te preguntes el porqué de los símbolos `''` (llamados comillas). 
+Cuando le pedimos al ordenador que guarde un texto tenemos que usar `'`(presiona Mayúscula+?)
+al inicio y al final del texto. El ordenador no guarda las comillas, solo guarda el texto que está
+entre ellas. El ordenador guardará las variables mientras el servidor Minecraft esté ejecutándose. 
+Repite el último comando que haz usado presionando `t`, luego la tecla `Arriba`+`Intro`. Puedes repetir
+esta orden cuantas veces quieras y el ordenador siempre mostrará el mismo valor. Puedes cambiarlo así...
 
     /js location = 'Mahon Point'
 
